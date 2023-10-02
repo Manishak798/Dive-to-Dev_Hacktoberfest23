@@ -11,7 +11,12 @@ let projectName;
         let findCard=document.getElementById("amazon");
         document.body.innerHTML= findCard.innerHTML;
         
-    }else{
+    }else if(projectName.toLowerCase()=="searchengine"){
+            let findCard=document.getElementById("searchengine");
+            document.body.innerHTML= findCard.innerHTML;
+            
+        }
+    else{
         let img = new Image();
             img.src ='Notfound-img.jpg';
             document.getElementById('body').appendChild(img);
