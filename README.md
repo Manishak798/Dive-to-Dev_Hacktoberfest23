@@ -1,5 +1,7 @@
 # Dive-to-Dev_Hacktoberfest23
+
 Dive into development with 'Dive to Dev' – your go-to open-source hub for sharing and collaborating on web dev and software projects during Hacktoberfest 2023. Join the coding wave now! 🚀Hacktoberfest 2023
+
 # Dive to Dev - Hacktoberfest 2023
 
 ![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-brightgreen)
@@ -18,9 +20,9 @@ Contributing is easy:
 
 2. **Clone your fork**: Clone your forked repository to your local machine using `git clone`.
 
-3. **Create a new branch**: Create a new branch for your project with a descriptive name like `feature/my-awesome-project`. This keeps your changes organized.
+3. **Create a new branch**: Create a new branch for your contributions.
 
-4. **Add your project**: Add your web development project or any development project you'd like to share to the appropriate directory. Be sure to include a `README.md` with instructions on how to use and contribute to your project.
+4. **Add your project**: Add your web development project or any development project you'd like to share to the appropriate directory. Be sure to check `Contributing.md` file before making your contribution.
 
 5. **Commit your changes**: Commit your changes with a clear and concise message.
 
@@ -43,6 +45,17 @@ By contributing to Dive to Dev during Hacktoberfest 2023, you'll not only be par
 ## Code of Conduct
 
 To ensure a safe and inclusive environment for all contributors, please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Code Review
+
+A maintainer will review your PR, provide feedback, and may request changes. Please be responsive to any comments or feedback during the review process.
+
+## Contribution Guidelines
+
+- Ensure that your code is well-documented, and add comments as necessary.
+- Follow the project's coding style and conventions.
+- Do not include any unnecessary or unrelated changes in your PR.
+- Be respectful and considerate when participating in discussions and addressing feedback.
 
 ## Questions and Support
 
