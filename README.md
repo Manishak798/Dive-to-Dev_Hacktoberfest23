@@ -10,7 +10,8 @@ Welcome to **Dive to Dev** – Hacktoberfest 2023 Edition! 🚀
 
 ## About
 
-**Dive to Dev** is an open-source repository created to celebrate Hacktoberfest 2023 and promote collaboration among developers of all levels. Whether you're a seasoned developer looking to share your projects or a beginner eager to dive into open source, this repository is the perfect place to get started! Make sure you **star** this repository ⭐⭐⭐⭐⭐
+**Dive to Dev** is an open-source repository created to celebrate Hacktoberfest 2023 and promote collaboration among developers of all levels. Whether you're a seasoned developer looking to share your projects or a beginner eager to dive into open source, this repository is the perfect place to get started! 
+**Make sure you star this repository ⭐⭐⭐⭐⭐**
 
 ## How to Contribute
 
