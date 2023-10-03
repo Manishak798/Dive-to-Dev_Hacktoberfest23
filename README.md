@@ -1,6 +1,6 @@
 # Dive-to-Dev_Hacktoberfest23
 
-Dive into development with 'Dive to Dev' – your go-to open-source hub for sharing and collaborating on web dev and software projects during Hacktoberfest 2023. Join the coding wave now! 🚀Hacktoberfest 2023
+Dive into development with 'Dive to Dev' – your go-to open-source hub that is beginner-friendly, for sharing and collaborating on web dev and software projects during Hacktoberfest 2023. Join the coding wave now! 🚀Hacktoberfest 2023
 
 # Dive to Dev - Hacktoberfest 2023
 
@@ -13,23 +13,26 @@ Welcome to **Dive to Dev** – Hacktoberfest 2023 Edition! 🚀
 **Dive to Dev** is an open-source repository created to celebrate Hacktoberfest 2023 and promote collaboration among developers of all levels. Whether you're a seasoned developer looking to share your projects or a beginner eager to dive into open source, this repository is the perfect place to get started! 
 **Make sure you star this repository ⭐⭐⭐⭐⭐**
 
+## Project Screenshot
+![image](https://github.com/Manishak798/Dive-to-Dev_Hacktoberfest23/assets/90680330/125c2c48-e24e-48d7-98b5-7e200cc572c7)
+
 ## How to Contribute
 
 Contributing is easy:
 
-1. **Fork this repository**: Click the "Fork" button at the top right of this page to create your own copy of the repository.
+1. **Fork this repository**: Click the "Fork" button at the top right of this page to create your copy of the repository.
 
 2. **Clone your fork**: Clone your forked repository to your local machine using `git clone`.
 
 3. **Create a new branch**: Create a new branch for your contributions.
 
-4. **Add your project**: Add your web development project or any development project you'd like to share to the appropriate directory. Be sure to check `Contributing.md` file before making your contribution.
+4. **Add your project**: Add your web development project or any development project you'd like to share to the appropriate directory. Be sure to check the `Contributing.md` file before making your contribution.
 
 5. **Commit your changes**: Commit your changes with a clear and concise message.
 
 6. **Push your changes**: Push your changes to your forked repository on GitHub.
 
-7. **Create a Pull Request (PR)**: Create a Pull Request to the `main` branch of the main repository. In your PR, describe your project and why it's awesome.
+7. **Create a Pull Request (PR)**: Create a Pull Request to the `main` branch of the main repository. In your PR, please describe your project and why it's incredible.
 
 8. **Celebrate**: Your project is now part of the Dive to Dev community! 🎉
 
@@ -41,7 +44,7 @@ Contributing is easy:
 
 ## Hacktoberfest 2023
 
-By contributing to Dive to Dev during Hacktoberfest 2023, you'll not only be part of a global celebration of open source but also have a chance to earn some awesome Hacktoberfest swag.
+By contributing to Dive to Dev during Hacktoberfest 2023, you'll be part of a global celebration of open source and earn some awesome Hacktoberfest swag.
 
 ## Code of Conduct
 
