@@ -16,10 +16,13 @@ body{
 }
 .card{
     margin: 10px;
+    width: 18rem;
 }
 .row{
-    width: 1300px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap:1rem;
 }
 .container {
     margin-left: 0;
