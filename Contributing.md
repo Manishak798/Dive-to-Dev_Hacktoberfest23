@@ -53,7 +53,7 @@ We welcome contributions of web development projects to Dive to Dev. To add your
         href="https://github.com/Manishak798/Amazon-clone"
         class="btn btn-primary"
         rel="your github project link"
-      >
+     target="_blank" >
         Project Link<!--Go somewhere, Mention the project link--></a
       >
     </div>
