@@ -14,16 +14,8 @@ body{
     background-color: #F8F6F4;
     
 }
-.card{
-    margin: 10px;
-    width: 18rem;
-}
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    gap:1rem;
-}
+
+
 .container {
     margin-left: 0;
     
