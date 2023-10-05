@@ -15,10 +15,17 @@ body{
     
 }
 
+.card{
+    margin: 10px;
+}
+.row{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
 
 .container {
     margin-left: 0;
-    
     margin-right: 0;
     
 }
