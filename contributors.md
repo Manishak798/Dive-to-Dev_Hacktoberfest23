@@ -10,4 +10,6 @@
 
 - [Contributor 4](https://github.com/contributor4-username)
 
+- [Shrihari Magar](https://github.com/EternoSeeker)
+
 ## Special Thanks to all the Contributors 😊❤️.
