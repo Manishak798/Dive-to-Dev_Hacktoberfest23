@@ -17,6 +17,8 @@ body{
 
 .card{
     margin: 10px;
+    width: 18rem;
+    height: 14rem;
 }
 .row{
     width: 100%;
@@ -28,6 +30,11 @@ body{
     margin-left: 0;
     margin-right: 0;
     
+}
+nav .nav-brand{
+    color: #79ac78;
+    font-weight: 700;
+    font-size: 45px
 }
 
 /*.col{
