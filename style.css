@@ -5,21 +5,30 @@
 body{
     background-color: #F2EFEB;
 }
+
 .navbar{
-    height: 90px;
+    height: 70px;
     width: 100%;
-    padding: auto;
+    padding: 0px 30px;
 }
+
 .card-body{
     background-color: #F8F6F4;
-    
 }
 
 .card{
     margin: 10px;
     width: 18rem;
-    height: 14rem;
+    height: max-content;
 }
+
+/* card image style */
+.card .card-img-top {
+    width: 18rem;
+    height: 12rem;
+    object-fit:cover;
+}
+
 .row{
     width: 100%;
     margin-top: 50px;
@@ -37,19 +46,51 @@ nav .nav-brand{
     font-size: 45px
 }
 
-/*.col{
-    width: 40rem;
-}
-.row{
-    margin-left: 0;
-    margin-right: 0;
+.container-fluid {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.container {
-    margin-left: 0;
-    padding-left: 0;
-    margin-right: 0;
-    width: 100%;
-}*/
+
+.container-fluid .row {
+    display: grid;
+    grid-template-columns: 18rem 18rem 18rem 18rem;
+    justify-content: space-evenly;
+}
 /* Custom CSS to add equal margin between columns */
 /* Custom CSS to add equal margin between columns */
+
+/* Responsive */
+@media screen and (max-width: 1230px) {
+    .container-fluid .row {
+        grid-template-columns: 18rem 18rem 18rem;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .container-fluid .row {
+        grid-template-columns: 18rem 18rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container-fluid .row {
+        grid-template-columns: 18rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .navbar{
+        padding: 0px 10px;
+    }
+
+    .form-inline {
+        display: flex;
+        gap: 4px;
+    }
+
+    .form-control {
+        width:170px;
+    }
+}
