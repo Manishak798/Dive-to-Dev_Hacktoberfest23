@@ -12,4 +12,5 @@
 
 - [Shrihari Magar](https://github.com/EternoSeeker)
 
+- [Avantika Sankhe](https://github.com/avantikasankhe)
 ## Special Thanks to all the Contributors 😊❤️.
