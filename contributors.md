@@ -12,7 +12,8 @@
 
 - [Shrihari Magar](https://github.com/EternoSeeker)
 
-
+- [Avantika Sankhe](https://github.com/avantikasankhe)
+  
 - [Mohan Majhi](https://github.com/mohan060104)
 
 
