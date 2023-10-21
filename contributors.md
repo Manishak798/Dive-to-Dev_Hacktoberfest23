@@ -12,4 +12,6 @@
 
 - [Shrihari Magar](https://github.com/EternoSeeker)
 
+- [kamran ul haq](https://github.com/kami922)
+
 ## Special Thanks to all the Contributors 😊❤️.
