@@ -12,19 +12,27 @@
 
   <title>Dive-to-Dev Hacktoberfest 2023</title>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body background="EEE3CB" id="body">
   <!--Nav Bar-->
   <nav class="navbar navbar-light bg-light justify-content-between">
-    <a class="navbar-brand">Dive to Dev</a>
-    <form class="form-inline">
-      <input id="proname" class="form-control mr-sm-2" type="search" placeholder="Search for Projects"
-        aria-label="Search" />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="findProject()">
-        Search
-      </button>
-    </form>
+    <a class="navbar-brand"><div class=" logo">DI<span class="v_style">V</span>E TO DE<span class="v_style">V</span></div></a>
+    <div class="menu-toggle">
+      <i class="fas fa-bars" id="menu-icon"></i>
+  </div>
+  <div class="search-form">
+      <form class="form-inline">
+          <input id="proname" class="form-control" type="search" placeholder="Search for Projects" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit" onclick="findProject()">Search</button>
+      </form>
+  </div>
+  
   </nav>
   <!--logo od dive to dev-->
   <img id="logo" src="./images/Dive to Dev.svg" alt="dive to dev logo" />
