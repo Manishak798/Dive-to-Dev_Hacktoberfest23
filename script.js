@@ -26,3 +26,23 @@ function findProject() {
     }
 }
 
+const menuIcon = document.getElementById("menu-icon");
+const searchForm = document.querySelector(".search-form");
+
+menuIcon.addEventListener("click", function () {
+    searchForm.style.display = (searchForm.style.display === "none" || searchForm.style.display === "") ? "flex" : "none";
+});
+
+// Ensure that the search form is hidden initially on small screens
+if (window.innerWidth <= 767) {
+    searchForm.style.display = "none";
+}
+
+window.addEventListener("resize", function () {
+    if (window.innerWidth > 767) {
+        searchForm.style.display = "flex";
+    } else {
+        searchForm.style.display = "none";
+    }
+});
+

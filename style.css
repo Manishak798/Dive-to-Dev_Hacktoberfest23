@@ -1,96 +1,164 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    background-color: #F2EFEB;
-}
-
-.navbar{
-    height: 70px;
+  }
+  body {
+    background-color: #f2efeb;
+  }
+  
+  .navbar {
+    height: 100%;
     width: 100%;
-    padding: 0px 30px;
-}
-
-.card-body{
-    background-color: #F8F6F4;
-}
-
-.card{
+    padding: 10px 30px;
+  }
+  
+  .card-body {
+    background-color: #f8f6f4;
+  }
+  
+  .card {
     margin: 10px;
     width: 18rem;
     height: max-content;
-}
-
-/* card image style */
-.card .card-img-top {
+  }
+  
+  .logo {
+    color: #a235f5;
+  }
+  .navbar-brand {
+      width:40%;
+    font-size: larger;
+    font-weight: 900;
+    letter-spacing: 2px;
+  
+    /* -webkit-text-stroke: 1px yellowgreen; */
+    text-shadow: 0px 2px 2px #f9fc0c;
+    font-family: "Pacifico", cursive;
+  }
+  .v_style {
+    font-style: italic;
+  }
+  
+  .form-inline{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  }
+  #proname
+  {
+      color:black;
+      width: 300px;
+      /* border-radius: 2%; */
+      background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  /* border-style: none; */
+  
+  }
+  
+  .btn
+  {
+      color:white;
+      background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  }
+  
+  /* For desktop screens */
+  @media (min-width: 768px) {
+      .menu-toggle {
+          display: none;
+      }
+      .search-form {
+          width: 50%;
+          display: flex;
+          gap: 5px;
+      }
+  }
+  
+  /* For small screens */
+  @media (max-width: 767px) {
+      .menu-toggle {
+          display: block;
+      }
+      .search-form {
+          width: 100%;
+          display: none;
+      }
+  }
+  
+  
+  /* card image style */
+  .card .card-img-top {
     width: 18rem;
     height: 12rem;
-    object-fit:cover;
-}
-
-.row{
+    object-fit: cover;
+  }
+  
+  .row {
     width: 100%;
     margin-top: 50px;
     padding: 10px;
-}
-
-.container {
+  }
+  
+  .container {
     margin-left: 0;
     margin-right: 0;
-    
-}
-nav .nav-brand{
+  }
+  nav .nav-brand {
     color: #79ac78;
     font-weight: 700;
-    font-size: 45px
-}
-
-.container-fluid {
+    font-size: 45px;
+  }
+  
+  .container-fluid {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.container-fluid .row {
+  }
+  
+  .container-fluid .row {
     display: grid;
     grid-template-columns: 18rem 18rem 18rem 18rem;
     justify-content: space-evenly;
-}
-/* Custom CSS to add equal margin between columns */
-/* Custom CSS to add equal margin between columns */
-
-/* Responsive */
-@media screen and (max-width: 1230px) {
+  }
+  /* Custom CSS to add equal margin between columns */
+  /* Custom CSS to add equal margin between columns */
+  
+  /* Responsive */
+  @media screen and (max-width: 1230px) {
     .container-fluid .row {
-        grid-template-columns: 18rem 18rem 18rem;
+      grid-template-columns: 18rem 18rem 18rem;
     }
-}
-
-@media screen and (max-width: 930px) {
+  }
+  
+  @media screen and (max-width: 930px) {
     .container-fluid .row {
-        grid-template-columns: 18rem 18rem;
+      grid-template-columns: 18rem 18rem;
     }
-}
-
-@media screen and (max-width: 620px) {
+  }
+  
+  @media screen and (max-width: 620px) {
     .container-fluid .row {
-        grid-template-columns: 18rem;
+      grid-template-columns: 18rem;
     }
-}
-
-@media screen and (max-width: 585px) {
-    .navbar{
-        padding: 0px 10px;
+  }
+  
+  @media screen and (max-width: 585px) {
+    .navbar {
+      padding: 10px 10px;
     }
-
+  
     .form-inline {
-        display: flex;
-        gap: 4px;
+      width: 100%;
+      display: flex;
+      gap: 4px;
+      justify-content: space-between;
     }
-
+  
     .form-control {
-        width:170px;
+      width: 170px;
     }
-}
+  }
+  
