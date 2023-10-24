@@ -13,8 +13,11 @@
 - [Shrihari Magar](https://github.com/EternoSeeker)
 
 - [Avantika Sankhe](https://github.com/avantikasankhe)
+
+- [Ridhika Joshi](https://github.com/RidhikaJoshi)
   
 - [Mohan Majhi](https://github.com/mohan060104)
 
+- [Siddhant Swarup Mallick](https://github.com/siddhant2002)
 
 ## Special Thanks to all the Contributors 😊❤️.
