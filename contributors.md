@@ -13,6 +13,8 @@
 - [Shrihari Magar](https://github.com/EternoSeeker)
 
 - [Avantika Sankhe](https://github.com/avantikasankhe)
+
+- [Ridhika Joshi](https://github.com/RidhikaJoshi)
   
 - [Mohan Majhi](https://github.com/mohan060104)
 
