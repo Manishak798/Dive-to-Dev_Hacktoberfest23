@@ -25,6 +25,12 @@
   .logo {
     color: #a235f5;
   }
+  
+  .logo-img-nav {
+    width: 90px;
+    height: 50px;
+  }
+  
   .navbar-brand {
       width:40%;
     font-size: larger;
