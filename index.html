@@ -1,597 +1,785 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-
-  <title>Dive-to-Dev Hacktoberfest 2023</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-</head>
-
-<body background="EEE3CB" id="body">
-  <!--Nav Bar-->
-  <nav class="navbar navbar-light bg-light justify-content-between">
-    <div class="nav-logo" id="logo2">
-      <img class="logo-img-nav" src="/images/project-images/logo.png" alt="Card image cap" />
-    </div>
-    <div class="menu-toggle">
-      <i class="fas fa-bars" id="menu-icon"></i>
-  </div>
-  <div class="search-form">
-      <form class="form-inline">
-          <input id="proname" class="form-control" type="search" placeholder="Search for Projects" aria-label="Search" />
-          <button class="btn btn-outline-success" type="submit" onclick="findProject()">Search</button>
-      </form>
-  </div>
-  
-  </nav>
-  <!--logo od dive to dev-->
-  <img id="logo" src="./images/Dive to Dev.svg" alt="dive to dev logo" />
-  <!--Making cards for adding projects-->
-  <div class="container-fluid">
-    <div class="row">
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5
-              and CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5 and
-              CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
-          <img class="card-img-top"
-            src="/images/project-images/youtube clone.png"
-            alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Youtube clone
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Youtube clone project made with HTML and
-              CSS.
-            </p>
-
-            <a href="https://dadhaniatilak.github.io/Website-youtube-public/" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-
-      <!--copy till here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="searchengine">
-          <img class="card-img-top" src="./images/project-images/Screenshot 2023-08-30 091509.png"
-            alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              JavaScript Search Engine
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly JavaScript Search Engine made with HTML5, CSS3 and JavaScript 🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Image-Search-Engine" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5
-              and CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5
-              and CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5
-              and CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card">
-          <img class="card-img-top" src="./images/project-images/Amazon-Clone.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Amazon Landing Page
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              This a beginner friendly Amazon clone project made with HTML5
-              and CSS3🚀.
-            </p>
-
-            <a href="https://github.com/Manishak798/Amazon-clone" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/FallingBlocks.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Falling Blocks Game
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              A simple falling blocks game implemented using HTML, CSS, and JavaScript.
-            </p>
-
-            <a href="https://thakurdiwakar.github.io/Falling-Blocks-Game/" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/Weather.jpeg" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Weather App
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              Simple Weather app made using HTML5, CSS and JavaScript.
-            </p>
-
-            <a href="https://github.com/RGupta-design/Weatherapp" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-      
-      <!--copy till here-->
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/Random_Quote_Generator.png" alt="Card image cap" />
-          <!--Add your project image-->
-      
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-             Random Quote Generator
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              Simple Random Quote Generator made using HTML5, CSS and JavaScript.
-            </p>
-      
-            <a href="https://github.com/RidhikaJoshi/Random_Quote_Generator" class="btn btn-primary" rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-
-      <!--copy till here-->
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/apnaBazar.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Apna Bazar
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              A responsive food website landing page.
-            </p>
-
-            <a href="https://github.com/prince-63/Apna-bazar" class="btn btn-primary" rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/EmoloyeeDirectoryScreenshot.png"
-            alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Employee Directory
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              A searchable employee directory.
-            </p>
-
-            <a href="https://github.com/famanakis/Scrimba/tree/main/m07-solo-employee-directory" class="btn btn-primary"
-              rel="github project link for employee directory">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="./images/project-images/SlotMachineSS.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Slot Machine Game
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              A simple Slot Machine game using plain html, css & js.
-            </p>
-
-            <a href="https://github.com/EternoSeeker/Slot-Machine" class="btn btn-primary"
-              rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="/images/project-images/blog site.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              Blog Site
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              A simple blog website using JS, Nodejs, Express, HTML and CSS.
-            </p>
-
-            <a href="https://github.com/arunks2003/Blog-Site" class="btn btn-primary" rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-
-      <!--Copy content here-->
-      <div class="col-md-3">
-        <!-- Card content here -->
-        <div class="card mb-4 custom-card" id="amazon">
-          <img class="card-img-top" src="images/project-images/ToDo list.png" alt="Card image cap" />
-          <!--Add your project image-->
-
-          <div class="card-body text-center card-1">
-            <h5 class="card-title">
-              ToDo List
-              <!--Card title/Project NAME-->
-            </h5>
-            <p class="card-text">
-              <!--Project Description [SHORT]-->
-              Keep track of what you are doing using this simple ReactJS site.
-            </p>
-
-            <a href="https://github.com/arpitbaheti2002/ToDo_list" class="btn btn-primary" rel="your github project link">
-              Project Link<!--Go somewhere, Mention the project link--></a>
-          </div>
-        </div>
-      </div>
-
-      <!--copy till here-->
-     <!--Copy content here-->
-<div class="col-md-3">
-  <!-- Card content here -->
-  <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
-    <img
-      class="card-img-top"
-      src="./images/project-images/drumkit-project.png"
-      alt="Card image cap"
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!--Add your project image-->
 
-    <div class="card-body text-center card-1">
-      <h5 class="card-title">
-        Drum Kit Project
-        <!--Card title/Project NAME-->
-      </h5>
-      <p class="card-text">
-        <!--Project Description [SHORT]-->
-        This is a beginner friendly front-end static page made with HTML5,
-        CSS3 and JavaScript🚀.
-      </p>
-
-      <a
-        href="https://mohan060104.github.io/DrumKitproject/"
-        class="btn btn-primary"
-        rel="your github project link"
-      >
-        Project Link<!--Go somewhere, Mention the project link--></a
-      >
-    </div>
-  </div>
-</div>
-
-<!--copy till here-->
-
-      
-      <!--Copy content here-->
-<div class="col-md-3">
-  <!-- Card content here -->
-  <div class="card mb-4 custom-card" id="google" style="width: 18rem">
-    <img
-      class="card-img-top"
-      src="/images/project-images/googleClone.jpg"
-      alt="Card image cap"
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
     />
-    <!--Add your project image-->
 
-    <div class="card-body text-center card-1">
-      <h5 class="card-title">
-        Google Search Engine Clone
-        <!--Card title/Project NAME-->
-      </h5>
-      <p class="card-text">
-        <!--Project Description [SHORT]-->
-        This a beginner friendly Google Search Engine clone project made with HTML5 and
-        CSS3🚀.
-      </p>
-
-      <a
-        href="https://github.com/avantikasankhe/hacktoberfest-2023"
-        class="btn btn-primary"
-        rel="your github project link"
-      >
-        Project Link<!--Go somewhere, Mention the project link--></a
-      >
-    </div>
-  </div>
-</div>
-
-<!--copy till here-->
-
-<!--Copy content here-->
-<div class="col-md-3">
-  <!-- Card content here -->
-  <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
-    <img
-      class="card-img-top"
-      src="./images/project-images/hzshashwat.JPG"
-      alt="Card image cap"
+    <title>Dive-to-Dev Hacktoberfest 2023</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
     />
-    <!--Add your project image-->
-
-    <div class="card-body text-center card-1">
-      <h5 class="card-title">
-        Pricing Panel Project
-        <!--Card title/Project NAME-->
-      </h5>
-      <p class="card-text">
-        <!--Project Description [SHORT]-->
-        This is simple UI/UX of a user-friendly purchase page.
-      </p>
-
-      <a
-        href="https://github.com/hzshashwat/Pricing-Pannel-Project"
-        class="btn btn-primary"
-        rel="your github project link"
-      >
-        Project Link<!--Go somewhere, Mention the project link--></a
-      >
-    </div>
-  </div>
-</div>
-
-<!--copy till here-->
-
-
-<!--Copy content here-->
-<div class="col-md-3">
-  <!-- Card content here -->
-  <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
-    <img
-      class="card-img-top"
-      src="/images/project-images/ToDo_List.png"
-      alt="Card image cap"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <!--Add your project image-->
+  </head>
 
-    <div class="card-body text-center card-1">
-      <h5 class="card-title">
-        ToDo List
-        <!--Card title/Project NAME-->
-      </h5>
-      <p class="card-text">
-        <!--Project Description [SHORT]-->
-        Keeps track of the daily activities in an ordered list format
-      </p>
+  <body background="EEE3CB" id="body">
+    <!--Nav Bar-->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <div class="nav-logo" id="logo2">
+        <img
+          class="logo-img-nav"
+          src="/images/project-images/logo.png"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars" id="menu-icon"></i>
+      </div>
+      <div class="search-form">
+        <form class="form-inline">
+          <input
+            id="proname"
+            class="form-control"
+            type="search"
+            placeholder="Search for Projects"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-success"
+            type="submit"
+            onclick="findProject()"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!--logo od dive to dev-->
+    <img id="logo" src="./images/Dive to Dev.svg" alt="dive to dev logo" />
+    <!--Making cards for adding projects-->
+    <div class="container-fluid">
+      <div class="row">
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
 
-      <a
-        href="https://github.com/siddhant2002/To-Do-List-App"
-        class="btn btn-primary"
-        rel="your github project link"
-      >
-        Project Link<!--Go somewhere, Mention the project link--></a
-      >
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="/images/project-images/youtube clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Youtube clone
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Youtube clone project made with HTML
+                and CSS.
+              </p>
+
+              <a
+                href="https://dadhaniatilak.github.io/Website-youtube-public/"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="searchengine">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Screenshot 2023-08-30 091509.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                JavaScript Search Engine
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly JavaScript Search Engine made with
+                HTML5, CSS3 and JavaScript 🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Image-Search-Engine"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Amazon-Clone.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Amazon Landing Page
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Amazon clone project made with HTML5
+                and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/Manishak798/Amazon-clone"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/FallingBlocks.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Falling Blocks Game
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                A simple falling blocks game implemented using HTML, CSS, and
+                JavaScript.
+              </p>
+
+              <a
+                href="https://thakurdiwakar.github.io/Falling-Blocks-Game/"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Weather.jpeg"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Weather App
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                Simple Weather app made using HTML5, CSS and JavaScript.
+              </p>
+
+              <a
+                href="https://github.com/RGupta-design/Weatherapp"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/Random_Quote_Generator.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Random Quote Generator
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                Simple Random Quote Generator made using HTML5, CSS and
+                JavaScript.
+              </p>
+
+              <a
+                href="https://github.com/RidhikaJoshi/Random_Quote_Generator"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/apnaBazar.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Apna Bazar
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                A responsive food website landing page.
+              </p>
+
+              <a
+                href="https://github.com/prince-63/Apna-bazar"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/EmoloyeeDirectoryScreenshot.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Employee Directory
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                A searchable employee directory.
+              </p>
+
+              <a
+                href="https://github.com/famanakis/Scrimba/tree/main/m07-solo-employee-directory"
+                class="btn btn-primary"
+                rel="github project link for employee directory"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="./images/project-images/SlotMachineSS.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Slot Machine Game
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                A simple Slot Machine game using plain html, css & js.
+              </p>
+
+              <a
+                href="https://github.com/EternoSeeker/Slot-Machine"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="/images/project-images/blog site.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Blog Site
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                A simple blog website using JS, Nodejs, Express, HTML and CSS.
+              </p>
+
+              <a
+                href="https://github.com/arunks2003/Blog-Site"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon">
+            <img
+              class="card-img-top"
+              src="images/project-images/ToDo list.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                ToDo List
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                Keep track of what you are doing using this simple ReactJS site.
+              </p>
+
+              <a
+                href="https://github.com/arpitbaheti2002/ToDo_list"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/project-images/drumkit-project.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Drum Kit Project
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This is a beginner friendly front-end static page made with
+                HTML5, CSS3 and JavaScript🚀.
+              </p>
+
+              <a
+                href="https://mohan060104.github.io/DrumKitproject/"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="google" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="/images/project-images/googleClone.jpg"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Google Search Engine Clone
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly Google Search Engine clone project made
+                with HTML5 and CSS3🚀.
+              </p>
+
+              <a
+                href="https://github.com/avantikasankhe/hacktoberfest-2023"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/project-images/hzshashwat.JPG"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Pricing Panel Project
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This is simple UI/UX of a user-friendly purchase page.
+              </p>
+
+              <a
+                href="https://github.com/hzshashwat/Pricing-Pannel-Project"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="/images/project-images/ToDo_List.png"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                ToDo List
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                Keeps track of the daily activities in an ordered list format
+              </p>
+
+              <a
+                href="https://github.com/siddhant2002/To-Do-List-App"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+        <!--Copy content here-->
+        <div class="col-md-3">
+          <!-- Card content here -->
+          <div class="card mb-4 custom-card" id="amazon" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./images/project-images/notes_taker.JPG"
+              alt="Card image cap"
+            />
+            <!--Add your project image-->
+
+            <div class="card-body text-center card-1">
+              <h5 class="card-title">
+                Note Taker Web APP
+                <!--Card title/Project NAME-->
+              </h5>
+              <p class="card-text">
+                <!--Project Description [SHORT]-->
+                This a beginner friendly notes taking web app made with HTML,
+                Bootstrap and JS
+              </p>
+
+              <a
+                href="https://github.com/shresritik/JS-practice/tree/master/Notes%20Taker"
+                class="btn btn-primary"
+                rel="your github project link"
+              >
+                Project Link<!--Go somewhere, Mention the project link--></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--copy till here-->
+        <!--copy till here-->
+      </div>
     </div>
-  </div>
-</div>
-
-<!--copy till here-->
-      
-
-    </div>
-  </div>
-  <script src="./script.js"></script>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script src="./script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
