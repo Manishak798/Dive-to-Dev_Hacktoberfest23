@@ -12,5 +12,6 @@
 - [Mohan Majhi](https://github.com/mohan060104)
 - [Siddhant Swarup Mallick](https://github.com/siddhant2002)
 - [Ritik Shrestha](https://github.com/shresritik)
+- [Syed Moazam Ali](https://github.com/MoazamAli45)
 
 ## Special Thanks to all the Contributors 😊❤️.
