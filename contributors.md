@@ -15,5 +15,6 @@
 - [Syed Moazam Ali](https://github.com/MoazamAli45)
 - [Jobin Abraham] (https://github.com/jobs-code)
 - [Purna Shrestha](https://github.com/purnasth/)
+- [Tapas Singhal](https://github.com/Shocker-lov-t)
 
 ## Special Thanks to all the Contributors 😊❤️.
